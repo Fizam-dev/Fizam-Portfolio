@@ -5,9 +5,40 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fizam-Portfolio</title>
+    
+    <!-- Preload untuk performa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="/src/App.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Meta tags untuk SEO -->
+    <meta name="description" content="Portfolio of FIZAMCYBERSEC - Cybersecurity Junior Professional">
+    <meta name="keywords" content="cybersecurity, portfolio, react, vite, FIZAMCYBERSEC">
+    <meta name="author" content="Syafizam">
+    <meta property="og:title" content="FIZAMCYBERSEC Portfolio">
+    <meta property="og:description" content="Cybersecurity Junior Portfolio showcasing projects, certifications and skills">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/og-image.jpg">
+    
+    <!-- Theme color -->
+    <meta name="theme-color" content="#000000">
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- AOS JS (optional jika ingin load via CDN) -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> -->
   </body>
 </html>
