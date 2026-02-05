@@ -271,7 +271,7 @@ function App() {
       if (platform === 'tiktok') {
         window.open('https://www.tiktok.com/@fizam.dev_2158', '_blank');
       } else if (platform === 'linkedin') {
-        window.open('www.linkedin.com/in/muhammad-syafizam', '_blank');
+        window.open('https://www.linkedin.com/in/muhammad-syafizam', '_blank');
       } else if (platform === 'github') 
       setIsScrolling(false);
     }, 500);
