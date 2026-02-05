@@ -25,47 +25,182 @@ function App() {
   };
 
   const certificates = [
-    { 
-      id: 1, 
-      title: 'CompTIA Security+', 
-      issuer: 'CompTIA', 
-      year: '2024',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    },
+    // LINE 69-75 dalam App.jsx - GANTIKAN DENGAN:
+{ 
+  id: 1, 
+  title: 'Hardware Hacking', 
+  issuer: 'Yayasan Digital Malaysia', 
+  year: '2025',
+  image: './21.png',  
+  date: '12-14 Disember 2025'
+},
     { 
       id: 2, 
-      title: 'CEH v11', 
-      issuer: 'EC-Council', 
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'Sijil Penyertaan Eschaton CTF', 
+      issuer: 'MITS', 
+      year: '2026',
+      image: './2.jpeg',
+      date: '31 Januari 2026'
     },
     { 
       id: 3, 
-      title: 'Google Cybersecurity', 
-      issuer: 'Google', 
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'Webinar:Keselamatan Akaun Media Sosial', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './3.jpeg',
+      date: '24 Julai 2025'
     },
     { 
       id: 4, 
-      title: 'Linux Essentials', 
-      issuer: 'Linux Foundation', 
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'Sijil Penyertaan CTF NADI X CyberSecurity zon Borneo', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './4.jpeg',
+      date: '28 jun 2025'
     },
     { 
       id: 5, 
-      title: 'Network+', 
-      issuer: 'CompTIA', 
-      year: '2022',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'Sijil Penghargaan CTF NADI X CyberSecurity zon Borneo', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './5.jpeg',
+      date: '28 jun 2025'
     },
     { 
       id: 6, 
-      title: 'Ethical Hacking', 
-      issuer: 'TryHackMe', 
-      year: '2022',
-      image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'Webinar Cara Menangani Ancaman Serangan Siber', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2026',
+      image: './6.jpeg',
+      date: '29 Januari 2026'
+    },
+    {
+    id: 7, 
+      title: 'Webinar Ancaman Siber Di Dalam Dunia Digital', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2026',
+      image: './7.jpeg',
+      date: '15 Januari 2025'
+    },
+    {
+    id: 8, 
+      title: 'Webinar Risiko Kamera Tersembunyi Slot 1', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './8.jpeg',
+      date: '4 Disember 2025'
+    },
+    {
+    id: 9, 
+      title: 'Webinar Risiko Kamera Tersembunyi Slot 2', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './9.jpeg',
+      date: '18 Disember 2025'
+    },
+    {
+    id: 10, 
+      title: 'Webinar Sim Swap: Ancaman Siber Kepada Usahawan Slot 1', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './10.jpeg',
+      date: '18 Setember 2025'
+    },
+    {
+    id: 11, 
+      title: 'Webinar Permulaan Di Universiti,Masa Depan Di Keselamatan Siber', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './11.jpeg',
+      date: '6 November 2025'
+    },
+    {
+    id: 12, 
+      title: 'Webinar Ancaman Siber Di Tempat Awam Slot 2', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './12.jpeg',
+      date: '24 Oktober 2025'
+    },
+    {
+    id: 13, 
+      title: 'Webinar Ancaman Siber Di Tempat Awam Slot 1', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './13.jpeg',
+      date: '10 Oktober 2025'
+    },
+    {
+    id: 14, 
+      title: 'Webinar Ancaman Siber Dalam Dunia AI', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './14.jpeg',
+      date: '20 November 2025'
+    },
+    {
+    id: 15, 
+      title: 'Webinar: Kebenaran Menakutkan Disebalik Dark Web', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './15.jpeg',
+      date: '28 Ogos 2025'
+    },
+    {
+    id: 16, 
+      title: 'Webinar: Selamatkah Telefon Anda Daripada Ancaman?', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './16.jpeg',
+      date: '14 Ogos 2025'
+    },
+    {
+    id: 17, 
+      title: 'Webinar: Dari Serangan Ke Pemulihan', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './17.jpeg',
+      date: '10 Julai 2025'
+    },
+    {
+    id: 18, 
+      title: 'Webinar: Laluan Pembelajaran Untuk Kerjaya Dalam CyberSecurity', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2025',
+      image: './18.jpeg',
+      date: '14 Februari 2025'
+    },
+    {
+    id: 19, 
+      title: 'Cyber Hygiene', 
+      issuer: 'NADI X CyberSecurity', 
+      year: '2026',
+      image: './19.jpeg',
+      date: '22 Januari 2026'
+    },
+    {
+    id: 20, 
+      title: 'Sijil Pencapaian FS4A(SQL)', 
+      issuer: 'Future Skills For All(FS4A)', 
+      year: '2025',
+      image: './20.jpeg',
+      date: '14 Mac 2025'
+    },
+    {
+    id: 21, 
+      title: 'Sijil Pencapaian FS4A(Python)', 
+      issuer: 'Future Skills For All(FS4A)', 
+      year: '2025',
+      image: './21.jpeg',
+      date: '15 Mac 2025'
+    },
+    {
+    id: 22, 
+      title: 'Sijil Pencapaian FS4A(HTML)', 
+      issuer: 'Future Skills For All(FS4A)', 
+      year: '2025',
+      image: './22.jpeg',
+      date: '6 Mei 2025'
     },
   ];
 
@@ -736,257 +871,265 @@ function App() {
       </section>
 
       {/* 3. CERTIFICATIONS SECTION */}
-      <section id="cert" style={{ 
-        minHeight: '100vh', 
-        width: '100%',
-        backgroundColor: '#0a0a0a', 
-        padding: '150px 5%',
-        boxSizing: 'border-box',
+      {/* 3. CERTIFICATIONS SECTION */}
+<section id="cert" style={{ 
+  minHeight: '100vh', 
+  width: '100%',
+  backgroundColor: '#0a0a0a', 
+  padding: '150px 5%',
+  boxSizing: 'border-box',
+  display: 'flex',
+  alignItems: 'center'
+}}>
+  <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%' }} data-aos="fade-up" data-aos-duration="800">
+    <h2 style={{ 
+      fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', 
+      marginBottom: '50px', 
+      borderLeft: '4px solid #fff', 
+      paddingLeft: '20px',
+      color: '#fff'
+    }}>
+      <i className="fa fa-certificate" style={{ marginRight: '15px', color: '#666' }}></i>
+      CERTIFICATIONS
+    </h2>
+    
+    <div style={{ 
+      position: 'relative',
+      border: '1px solid #222',
+      borderRadius: '10px',
+      overflow: 'hidden',
+      background: 'rgba(0,0,0,0.5)',
+      padding: '30px',
+      minHeight: '500px'
+    }} ref={certContainerRef} data-aos="zoom-in" data-aos-duration="800">
+      {/* Certificate Display */}
+      <div style={{
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        minHeight: '400px',
+        position: 'relative'
       }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%' }} data-aos="fade-up" data-aos-duration="800">
-          <h2 style={{ 
-            fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', 
-            marginBottom: '50px', 
-            borderLeft: '4px solid #fff', 
-            paddingLeft: '20px',
-            color: '#fff'
-          }}>
-            <i className="fa fa-certificate" style={{ marginRight: '15px', color: '#666' }}></i>
-            CERTIFICATIONS
-          </h2>
-          
-          <div style={{ 
-            position: 'relative',
-            border: '1px solid #222',
-            borderRadius: '10px',
-            overflow: 'hidden',
-            background: 'rgba(0,0,0,0.5)',
-            padding: '20px',
-            minHeight: '500px'
-          }} ref={certContainerRef} data-aos="zoom-in" data-aos-duration="800">
-            {/* Certificate Display */}
-            <div style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              minHeight: '400px',
-              position: 'relative'
-            }}>
-              <div style={{
-                width: '100%',
-                maxWidth: '800px',
-                overflow: 'hidden',
-                position: 'relative'
-              }}>
-                <div style={{
-                  display: 'flex',
-                  transform: `translateX(-${activeCertIndex * 100}%)`,
-                  transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
-                }}>
-                  {certificates.map((cert, index) => (
-                    <div key={cert.id} style={{
-                      minWidth: '100%',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      alignItems: 'center',
-                      padding: '20px'
-                    }} className="cert-slide">
-                      <div style={{
-                        width: '100%',
-                        height: '300px',
-                        backgroundImage: `url(${cert.image})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                        borderRadius: '5px',
-                        marginBottom: '20px',
-                        border: '1px solid #333',
-                        position: 'relative',
-                        overflow: 'hidden'
-                      }}>
-                        <div style={{
-                          position: 'absolute',
-                          top: 0,
-                          left: 0,
-                          right: 0,
-                          bottom: 0,
-                          background: 'rgba(0,0,0,0.3)',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center'
-                        }}>
-                          <i className="fa fa-certificate" style={{
-                            fontSize: '4rem',
-                            color: 'rgba(255,255,255,0.2)'
-                          }}></i>
-                        </div>
-                      </div>
-                      <div style={{ textAlign: 'center' }}>
-                        <h3 style={{ color: '#fff', marginBottom: '10px', fontSize: '1.5rem' }}>{cert.title}</h3>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '10px' }}>
-                          <i className="fa fa-building" style={{ color: '#666', fontSize: '0.9rem' }}></i>
-                          <p style={{ color: '#666', fontSize: '1rem', margin: '0' }}>{cert.issuer}</p>
-                        </div>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
-                          <i className="fa fa-calendar" style={{ color: '#888', fontSize: '0.8rem' }}></i>
-                          <p style={{ color: '#888', fontSize: '0.9rem', margin: '0' }}>{cert.year}</p>
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Navigation Buttons */}
-            <button 
-              onClick={prevCert}
-              style={{
-                position: 'absolute',
-                left: '20px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                background: 'rgba(0,0,0,0.7)',
-                border: '1px solid #333',
-                color: '#fff',
-                width: '50px',
-                height: '50px',
-                borderRadius: '50%',
-                cursor: 'pointer',
-                fontSize: '1.2rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                transition: 'all 0.3s ease',
-                zIndex: 10
-              }}
-              className="nav-button"
-              aria-label="Previous certificate"
-            >
-              <i className="fa fa-chevron-left"></i>
-            </button>
-
-            <button 
-              onClick={nextCert}
-              style={{
-                position: 'absolute',
-                right: '20px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                background: 'rgba(0,0,0,0.7)',
-                border: '1px solid #333',
-                color: '#fff',
-                width: '50px',
-                height: '50px',
-                borderRadius: '50%',
-                cursor: 'pointer',
-                fontSize: '1.2rem',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                transition: 'all 0.3s ease',
-                zIndex: 10
-              }}
-              className="nav-button"
-              aria-label="Next certificate"
-            >
-              <i className="fa fa-chevron-right"></i>
-            </button>
-
-            {/* Certificate Indicators */}
-            <div style={{
-              display: 'flex',
-              justifyContent: 'center',
-              gap: '10px',
-              marginTop: '30px',
-              flexWrap: 'wrap'
-            }}>
-              {certificates.map((cert, index) => (
-                <button
-                  key={cert.id}
-                  onClick={() => setActiveCertIndex(index)}
-                  style={{
-                    width: '12px',
-                    height: '12px',
-                    borderRadius: '50%',
-                    background: index === activeCertIndex ? '#fff' : '#333',
-                    border: 'none',
-                    cursor: 'pointer',
-                    transition: 'all 0.3s ease'
-                  }}
-                  className="cert-indicator"
-                  title={`View ${cert.title}`}
-                  aria-label={`Go to certificate ${index + 1}`}
-                />
-              ))}
-            </div>
-          </div>
-          
+        <div style={{
+          width: '100%',
+          maxWidth: '900px',
+          position: 'relative'
+        }}>
           <div style={{
             display: 'flex',
-            justifyContent: 'center',
-            gap: '20px',
-            marginTop: '40px',
-            flexWrap: 'wrap'
+            transform: `translateX(-${activeCertIndex * 100}%)`,
+            transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
           }}>
-            <button 
-              onClick={prevCert}
-              style={{
-                padding: '10px 25px',
-                background: 'transparent',
-                border: '1px solid #333',
-                color: '#666',
-                borderRadius: '5px',
-                cursor: 'pointer',
+            {certificates.map((cert, index) => (
+              <div key={cert.id} style={{
+                minWidth: '100%',
                 display: 'flex',
+                flexDirection: 'column',
                 alignItems: 'center',
-                gap: '10px',
-                fontSize: '0.9rem',
-                transition: 'all 0.3s ease',
-                fontFamily: 'monospace'
-              }}
-              className="secondary-button"
-            >
-              <i className="fa fa-chevron-left"></i>
-              Previous
-            </button>
-            <div style={{
-              padding: '10px 25px',
-              background: 'rgba(255,255,255,0.05)',
-              border: '1px solid #333',
-              color: '#fff',
-              borderRadius: '5px',
-              fontSize: '0.9rem',
-              fontFamily: 'monospace'
-            }}>
-              {activeCertIndex + 1} / {certificates.length}
-            </div>
-            <button 
-              onClick={nextCert}
-              style={{
-                padding: '10px 25px',
-                background: 'transparent',
-                border: '1px solid #333',
-                color: '#666',
-                borderRadius: '5px',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '10px',
-                fontSize: '0.9rem',
-                transition: 'all 0.3s ease',
-                fontFamily: 'monospace'
-              }}
-              className="secondary-button"
-            >
-              Next
-              <i className="fa fa-chevron-right"></i>
-            </button>
+                padding: '10px'
+              }} className="cert-slide">
+                <div className="cert-card-detailed">
+                  <div className="cert-main-content">
+                    {/* Certificate Image */}
+                    <div className="cert-image-wrapper">
+                      <img 
+                        src={cert.image} 
+                        alt={cert.title}
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          maxHeight: '350px',
+                          objectFit: 'contain'
+                        }}
+                      />
+                    </div>
+                    
+                    {/* Certificate Details Sidebar */}
+                    <div className="cert-details-sidebar">
+                      <div className="cert-detail-item">
+                        <div className="cert-detail-label">Certificate</div>
+                        <div className="cert-detail-value">{cert.title}</div>
+                      </div>
+                      
+                      <div className="cert-detail-item">
+                        <div className="cert-detail-label">Issued By</div>
+                        <div className="cert-detail-value">{cert.issuer}</div>
+                      </div>
+                      
+                      <div className="cert-detail-item">
+                        <div className="cert-detail-label">Year</div>
+                        <div className="cert-detail-value">{cert.year}</div>
+                      </div>
+                      
+                      {cert.date && (
+                        <div className="cert-detail-item">
+                          <div className="cert-detail-label">Date</div>
+                          <div className="cert-detail-value">{cert.date}</div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  
+                  {/* Certificate Description */}
+                  {cert.description && (
+                    <div className="cert-description">
+                      <p>{cert.description}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
-      </section>
+      </div>
 
+      {/* Navigation Buttons (sama seperti sebelum ini) */}
+      <button 
+        onClick={prevCert}
+        style={{
+          position: 'absolute',
+          left: '20px',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          background: 'rgba(0,0,0,0.7)',
+          border: '1px solid #333',
+          color: '#fff',
+          width: '50px',
+          height: '50px',
+          borderRadius: '50%',
+          cursor: 'pointer',
+          fontSize: '1.2rem',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          transition: 'all 0.3s ease',
+          zIndex: 10
+        }}
+        className="nav-button"
+        aria-label="Previous certificate"
+      >
+        <i className="fa fa-chevron-left"></i>
+      </button>
+
+      <button 
+        onClick={nextCert}
+        style={{
+          position: 'absolute',
+          right: '20px',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          background: 'rgba(0,0,0,0.7)',
+          border: '1px solid #333',
+          color: '#fff',
+          width: '50px',
+          height: '50px',
+          borderRadius: '50%',
+          cursor: 'pointer',
+          fontSize: '1.2rem',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          transition: 'all 0.3s ease',
+          zIndex: 10
+        }}
+        className="nav-button"
+        aria-label="Next certificate"
+      >
+        <i className="fa fa-chevron-right"></i>
+      </button>
+
+      {/* Certificate Indicators (sama seperti sebelum ini) */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        gap: '10px',
+        marginTop: '30px',
+        flexWrap: 'wrap'
+      }}>
+        {certificates.map((cert, index) => (
+          <button
+            key={cert.id}
+            onClick={() => setActiveCertIndex(index)}
+            style={{
+              width: '12px',
+              height: '12px',
+              borderRadius: '50%',
+              background: index === activeCertIndex ? '#fff' : '#333',
+              border: 'none',
+              cursor: 'pointer',
+              transition: 'all 0.3s ease'
+            }}
+            className="cert-indicator"
+            title={`View ${cert.title}`}
+            aria-label={`Go to certificate ${index + 1}`}
+          />
+        ))}
+      </div>
+    </div>
+    
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      gap: '20px',
+      marginTop: '40px',
+      flexWrap: 'wrap'
+    }}>
+      <button 
+        onClick={prevCert}
+        className="secondary-button"
+        style={{
+          padding: '10px 25px',
+          background: 'transparent',
+          border: '1px solid #333',
+          color: '#666',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '10px',
+          fontSize: '0.9rem',
+          transition: 'all 0.3s ease',
+          fontFamily: 'monospace'
+        }}
+      >
+        <i className="fa fa-chevron-left"></i>
+        Previous
+      </button>
+      <div style={{
+        padding: '10px 25px',
+        background: 'rgba(255,255,255,0.05)',
+        border: '1px solid #333',
+        color: '#fff',
+        borderRadius: '5px',
+        fontSize: '0.9rem',
+        fontFamily: 'monospace'
+      }}>
+        {activeCertIndex + 1} / {certificates.length}
+      </div>
+      <button 
+        onClick={nextCert}
+        className="secondary-button"
+        style={{
+          padding: '10px 25px',
+          background: 'transparent',
+          border: '1px solid #333',
+          color: '#666',
+          borderRadius: '5px',
+          cursor: 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '10px',
+          fontSize: '0.9rem',
+          transition: 'all 0.3s ease',
+          fontFamily: 'monospace'
+        }}
+      >
+        Next
+        <i className="fa fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
       {/* 4. PROJECTS GALLERY SECTION */}
       <section id="projects" style={{ 
         minHeight: '100vh', 
