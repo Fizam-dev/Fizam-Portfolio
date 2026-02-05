@@ -739,7 +739,7 @@ function App() {
             letterSpacing: '4px',
             textTransform: 'uppercase'
           }} data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-            CYBERSECURITY JUNIOR
+            CYBERSECURITY JUNIOR & FOUNDER OF HACKDEV
           </p>
           <div style={{ 
             marginTop: '40px',
@@ -760,7 +760,7 @@ function App() {
               cursor: 'pointer',
               fontFamily: 'monospace'
             }} className="cta-button">
-              EXPLORE
+              ABOUT ME
             </button>
             <button onClick={() => scrollToSection('contact')} style={{
               padding: '12px 30px',
@@ -775,7 +775,7 @@ function App() {
               cursor: 'pointer',
               fontFamily: 'monospace'
             }} className="cta-button">
-              CONTACT
+              PERSONAL ACCOUNT
             </button>
           </div>
         </div>
