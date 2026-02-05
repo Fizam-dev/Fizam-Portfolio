@@ -80,41 +80,41 @@ function App() {
     },
     { 
       id: 2, 
-      title: 'Web App Firewall', 
-      description: 'PHP-based web application firewall with real-time threat detection',
-      tech: ['PHP', 'MySQL', 'JavaScript', 'Redis'],
+      title: 'Team Sentral + Borneo B CTF NADi X CyberSecurity', 
+      description: '',
+      tech: [''],
       type: 'portrait',
       image: './IMG_20250926_191000_851.jpg'
     },
     { 
       id: 3, 
-      title: 'Security Dashboard', 
-      description: 'React dashboard for monitoring security metrics and incident response',
-      tech: ['React', 'Node.js', 'Chart.js', 'WebSocket'],
+      title: 'TAMiNG ICCTF8 Organized by UITM Jasin MELAKA', 
+      description: '',
+      tech: [''],
       type: 'landscape',
       image: './1768234829066.jpg'
     },
     { 
       id: 4, 
-      title: 'Encryption Tool Suite', 
-      description: 'Collection of cryptographic tools for secure communications',
-      tech: ['Python', 'Cryptography', 'AES', 'RSA'],
+      title: 'Mega Nadi event at IOI City Mall, Putrajaya', 
+      description: '',
+      tech: [''],
       type: 'portrait',
       image: './1765335860018.jpg'
     },
     { 
       id: 5, 
-      title: 'Incident Response System', 
-      description: 'Automated system for handling security incidents and alerts',
-      tech: ['Python', 'Flask', 'MongoDB', 'Docker'],
+      title: '', 
+      description: '',
+      tech: ['|'],
       type: 'landscape',
       image: './1765085714451.jpg'
     },
     { 
       id: 6, 
-      title: 'Malware Analysis Sandbox', 
-      description: 'Secure environment for analyzing suspicious files and malware',
-      tech: ['Python', 'VirtualBox', 'YARA', 'Linux'],
+      title: 'Putatan,Sabah | 8 November 2025 - Hari Bersama Komuniti dan Temu Anak Muda NADI', 
+      description: '',
+      tech: [''],
       type: 'portrait',
       image: './ssstik.io_1770250693508.jpeg'
     },
@@ -386,6 +386,10 @@ function App() {
             e.preventDefault();
             scrollToSection('projects');
           }}>GALLERY</a>
+<a href="#community" className="nav-link" onClick={(e) => {
+  e.preventDefault();
+  scrollToSection('community');
+}}>MY COMMUNITY</a>
           <a href="#contact" className="nav-link" onClick={(e) => {
             e.preventDefault();
             scrollToSection('contact');
@@ -510,6 +514,23 @@ function App() {
             <i className="fa fa-project-diagram"></i>
             GALLERY
           </a>
+         <a href="#community" onClick={(e) => {
+  e.preventDefault();
+  scrollToSection('community');
+}} className="mobile-nav-link" style={{
+  color: '#fff',
+  textDecoration: 'none',
+  fontSize: '1.2rem',
+  padding: '15px 0',
+  borderBottom: '1px solid rgba(255,255,255,0.1)',
+  transition: 'all 0.3s ease',
+  display: 'flex',
+  alignItems: 'center',
+  gap: '10px'
+}}>
+  <i className="fa fa-users"></i>
+  MY COMMUNITY
+</a>
           <a href="#contact" onClick={(e) => {
             e.preventDefault();
             scrollToSection('contact');
@@ -659,14 +680,14 @@ function App() {
                 fontSize: 'clamp(1rem, 2vw, 1.2rem)',
                 marginBottom: '30px'
               }}>
-                Hello, saya <span style={{ color: '#fff', fontWeight: 'bold' }}>Syafizam</span>, seorang Junior Cybersecurity enthusiast dengan passion dalam bidang keamanan digital. Saya fokus pada pengembangan sistem yang aman dan analisis keamanan jaringan.
+                Hello everyone, welcome to my portfolio website!! My name is <span style={{ color: '#fff', fontWeight: 'bold' }}> Muhammad Syafizam@FizamCyberSec</span>, I am a junior CyberSecurity specialist and also the Founder of HackDev. I am 17 years old and I have a talent in this field.
               </p>
               <p style={{ 
                 color: '#666', 
                 lineHeight: '1.8', 
                 fontSize: 'clamp(0.9rem, 2vw, 1.1rem)'
               }}>
-                Dengan background dalam development dan cybersecurity, saya menggabungkan kemampuan teknis untuk membangun solusi yang aman dan efisien.
+                I started learning about CyberSecurity at the age of 14. My tireless efforts have brought much success at such a young age, namely 17. This success is further driven by mentors who have been very helpful in improving my skills. I also aspire to use my skills for good and become a successor to cyber heroes in Malaysia who will advance the country's cyber security sector.
               </p>
             </div>
             <div style={{ 
@@ -982,8 +1003,8 @@ function App() {
             paddingLeft: '20px',
             color: '#fff'
           }}>
-            <i className="fa fa-project-diagram" style={{ marginRight: '15px', color: '#666' }}></i>
-            PROJECT GALLERY
+            <i className="fas fa-camera" style={{ marginRight: '15px', color: '#666' }}></i>
+             GALLERY
           </h2>
           
           {/* Masonry Grid */}
@@ -1027,6 +1048,305 @@ function App() {
           </div>
         </div>
       </section>
+      
+
+{/* 5. COMMUNITY SECTION */}
+<section id="community" style={{ 
+  minHeight: '100vh', 
+  width: '100%',
+  backgroundColor: '#000', 
+  padding: '150px 5%',
+  boxSizing: 'border-box',
+  position: 'relative',
+  overflow: 'hidden'
+}}>
+  <div style={{ 
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    background: 'radial-gradient(circle at 50% 50%, rgba(89, 93, 81, 0.1) 0%, rgba(0,0,0,0) 50%)',
+    zIndex: 0
+  }}></div>
+  
+  <div style={{ maxWidth: '1200px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }} data-aos="fade-up" data-aos-duration="800">
+    <h2 style={{ 
+      fontSize: 'clamp(1.5rem, 4vw, 2.5rem)', 
+      marginBottom: '50px', 
+      borderLeft: '4px solid #595D51', 
+      paddingLeft: '20px',
+      color: '#fff'
+    }}>
+      <i className="fa fa-users" style={{ marginRight: '15px', color: '#595D51' }}></i>
+      MY COMMUNITY
+    </h2>
+    
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      gap: '60px',
+      alignItems: 'center'
+    }}>
+      {/* Community Logo & Info */}
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '30px'
+      }} data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">
+        <div style={{
+          width: '250px',
+          height: '250px',
+          borderRadius: '20px',
+          background: 'linear-gradient(135deg, #1a1a1a 0%, #000 100%)',
+          border: '3px solid #595D51',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '20px',
+          position: 'relative',
+          overflow: 'hidden',
+          boxShadow: '0 20px 50px rgba(89, 93, 81, 0.2)'
+        }}>
+          {/* Logo HackDev */}
+          <div style={{
+            width: '100%',
+            height: '100%',
+            backgroundImage: 'url(./Hackdev.jpg)',
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            filter: 'grayscale(20%) brightness(110%)'
+          }}></div>
+          
+          {/* Glow Effect */}
+          <div style={{
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            right: '0',
+            bottom: '0',
+            background: 'radial-gradient(circle at center, rgba(89, 93, 81, 0.1) 0%, transparent 70%)',
+            zIndex: 1
+          }}></div>
+        </div>
+        
+        <div style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '15px'
+        }}>
+          <h3 style={{
+            color: '#fff',
+            fontSize: '1.8rem',
+            fontWeight: 'bold',
+            letterSpacing: '2px',
+            margin: 0
+          }}>HACKDEV</h3>
+          
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            flexWrap: 'wrap',
+            justifyContent: 'center'
+          }}>
+            <span style={{
+              padding: '5px 15px',
+              background: '#595D51',
+              color: '#fff',
+              fontSize: '0.8rem',
+              borderRadius: '20px',
+              fontWeight: 'bold',
+              letterSpacing: '1px'
+            }}>CYBERSECURITY</span>
+            <span style={{
+              padding: '5px 15px',
+              background: '#1a1a1a',
+              color: '#fff',
+              fontSize: '0.8rem',
+              borderRadius: '20px',
+              border: '1px solid #595D51',
+              fontWeight: 'bold',
+              letterSpacing: '1px'
+            }}>COMMUNITY</span>
+            <span style={{
+              padding: '5px 15px',
+              background: '#1a1a1a',
+              color: '#fff',
+              fontSize: '0.8rem',
+              borderRadius: '20px',
+              border: '1px solid #595D51',
+              fontWeight: 'bold',
+              letterSpacing: '1px'
+            }}>MALAYSIA</span>
+          </div>
+        </div>
+      </div>
+      
+      {/* Community Description & Features */}
+      <div style={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '25px'
+      }} data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
+        <div style={{
+          borderLeft: '3px solid #595D51',
+          paddingLeft: '20px'
+        }}>
+          <p style={{
+            color: '#888',
+            lineHeight: '1.8',
+            fontSize: '1.1rem',
+            marginBottom: '15px'
+          }}>
+            <span style={{ color: '#fff', fontWeight: 'bold' }}>HackDev.my </span> is a cybersecurity community that I founded to nurture a new generation in the world of cybersecurity and unite young people interested in the field of CyberSecurity in Malaysia.</p>
+          
+          <p style={{
+            color: '#666',
+            lineHeight: '1.8',
+            fontSize: '1rem'
+          }}>
+            Our goal is to produce more ethical hackers who will assist the country in advancing the domestic security sector to ensure Malaysia's digital well-being. At the same time, this community will be the successor in the field of CyberSecurity in Malaysia.</p>
+        </div>
+        
+        {/* Community Features */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+          gap: '20px',
+          marginTop: '10px'
+        }}>
+          <div style={{
+            padding: '20px',
+            background: 'rgba(89, 93, 81, 0.1)',
+            border: '1px solid rgba(89, 93, 81, 0.3)',
+            borderRadius: '10px',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '10px',
+            transition: 'all 0.3s ease'
+          }} className="feature-card">
+            <i className="fa fa-shield-alt" style={{ 
+              fontSize: '2rem', 
+              color: '#595D51',
+              marginBottom: '5px'
+            }}></i>
+            <h4 style={{ color: '#fff', margin: 0, fontSize: '1rem' }}>Security Practical</h4>
+            <p style={{ color: '#888', fontSize: '0.85rem', textAlign: 'center', margin: 0 }}>
+              Focus on hands-on and knowledge sharing
+            </p>
+          </div>
+          
+          <div style={{
+            padding: '20px',
+            background: 'rgba(89, 93, 81, 0.1)',
+            border: '1px solid rgba(89, 93, 81, 0.3)',
+            borderRadius: '10px',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '10px',
+            transition: 'all 0.3s ease'
+          }} className="feature-card">
+            <i className="fa fa-users" style={{ 
+              fontSize: '2rem', 
+              color: '#595D51',
+              marginBottom: '5px'
+            }}></i>
+            <h4 style={{ color: '#fff', margin: 0, fontSize: '1rem' }}>Networking</h4>
+            <p style={{ color: '#888', fontSize: '0.85rem', textAlign: 'center', margin: 0 }}>
+              Community support and communication with each other
+            </p>
+          </div>
+          
+          <div style={{
+            padding: '20px',
+            background: 'rgba(89, 93, 81, 0.1)',
+            border: '1px solid rgba(89, 93, 81, 0.3)',
+            borderRadius: '10px',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '10px',
+            transition: 'all 0.3s ease'
+          }} className="feature-card">
+            <i className="fa fa-trophy" style={{ 
+              fontSize: '2rem', 
+              color: '#595D51',
+              marginBottom: '5px'
+            }}></i>
+            <h4 style={{ color: '#fff', margin: 0, fontSize: '1rem' }}>CTF Competitions</h4>
+            <p style={{ color: '#888', fontSize: '0.85rem', textAlign: 'center', margin: 0 }}>
+              Always participating in CTF (Capture the Flag) competitions to improve our skills.
+            </p>
+          </div>
+        </div>
+        
+        {/* Community Stats */}
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
+          gap: '15px',
+          marginTop: '20px',
+          padding: '25px',
+          background: 'rgba(26, 26, 26, 0.5)',
+          border: '1px solid #333',
+          borderRadius: '10px'
+        }}>
+          <div style={{ textAlign: 'center' }}>
+            <div style={{ 
+              fontSize: '2rem', 
+              fontWeight: 'bold', 
+              color: '#595D51',
+              marginBottom: '5px'
+            }}>90+</div>
+            <div style={{ color: '#888', fontSize: '0.9rem' }}>Members</div>
+          </div>
+        </div>
+        
+        {/* Community Buttons */}
+        <div style={{
+          display: 'flex',
+          gap: '20px',
+          marginTop: '30px',
+          flexWrap: 'wrap'
+        }}>
+          <button 
+            onClick={() => window.open('https://fizam-dev.github.io/HackDev/', '_blank')}
+            style={{
+              padding: '15px 30px',
+              background: '#595D51',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '8px',
+              fontSize: '1rem',
+              fontWeight: 'bold',
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px',
+              transition: 'all 0.3s ease',
+              flex: 1,
+              minWidth: '200px',
+              justifyContent: 'center'
+            }}
+            className="community-button"
+          >
+            <i className="fa fa-globe"></i>
+            VISIT HACKDEV WEBSITE
+          </button>
+          
+        </div> 
+        
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* 5. CONTACT SECTION - Social Media Cards */}
       <section id="contact" style={{ 
