@@ -18,7 +18,7 @@ function App() {
   
   // Profile Images dengan gambar lokal - FIXED PATH
   const profileImages = {
-    tiktokBanner: '.1760871670475.jpg',
+    tiktokBanner: './1760871670475.jpg',
     tiktokProfile: './Fizam1.jpeg', // Gunakan ./ untuk public folder
     linkedinBanner: './1760871670475.jpg',
     linkedinProfile: './Fizam2.jpg' // Gunakan ./ untuk public folder
@@ -646,7 +646,7 @@ function App() {
             alignItems: 'center',
             gap: '10px'
           }}>
-            <i className="fa fa-project-diagram"></i>
+            <i className="fas fa-camera"></i>
             GALLERY
           </a>
          <a href="#community" onClick={(e) => {
