@@ -815,15 +815,14 @@ function App() {
                 fontSize: 'clamp(1rem, 2vw, 1.2rem)',
                 marginBottom: '30px'
               }}>
-                Hello everyone, welcome to my portfolio website!! My name is <span style={{ color: '#fff', fontWeight: 'bold' }}> Muhammad Syafizam@FizamCyberSec</span>, I am a junior CyberSecurity specialist and also the Founder of HackDev. I am 17 years old and I have a talent in this field.
+                Welcome to my portfolio! I am <span style={{ color: '#fff', fontWeight: 'bold' }}>Muhammad Syafizam</span>, also known as <span style={{ color: '#fff', fontWeight: 'bold' }}>FizamCyberSec</span>—a Junior Cybersecurity Specialist and the Founder of HackDev. My journey into the world of digital security began at the age of 14, driven by a relentless passion for technology and guided by industry mentors.
               </p>
               <p style={{ 
                 color: '#666', 
                 lineHeight: '1.8', 
                 fontSize: 'clamp(0.9rem, 2vw, 1.1rem)'
               }}>
-                I started learning about CyberSecurity at the age of 14. My tireless efforts have brought much success at such a young age, namely 17. This success is further driven by mentors who have been very helpful in improving my skills. I also aspire to use my skills for good and become a successor to cyber heroes in Malaysia who will advance the country's cyber security sector.
-              </p>
+                At 17, my dedication has culminated in significant milestones, including major cybersecurity awards and the development of innovative technical solutions. My mission is to leverage my expertise for the greater good, aspiring to be part of the next generation of cyber heroes who will fortify Malaysia's digital sovereignty and lead the nation toward a more secure future.</p>
             </div>
             <div style={{ 
               border: '1px solid #222', 
