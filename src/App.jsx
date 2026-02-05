@@ -128,12 +128,12 @@ function App() {
     { name: 'Cryptography', icon: 'fa fa-lock' },
     { name: 'Linux', icon: 'fab fa-linux' },
     { name: 'Python', icon: 'fab fa-python' },
-    { name: 'Docker', icon: 'fab fa-docker' },
+    { name: 'Hardware', icon: 'fas fa-microchip' },
     { name: 'Git', icon: 'fab fa-git-alt' },
     { name: 'Networking', icon: 'fa fa-network-wired' },
     { name: 'Wireshark', icon: 'fa fa-eye' },
     { name: 'Nmap', icon: 'fa fa-search' },
-    { name: 'Metasploit', icon: 'fa fa-shield-alt' },
+    { name: 'Web Application', icon: 'fa fa-code' },
   ];
 
   useEffect(() => {
