@@ -47,7 +47,7 @@ function App() {
       title: 'Webinar:Keselamatan Akaun Media Sosial', 
       issuer: 'NADI X CyberSecurity', 
       year: '2025',
-      image: './3.jpeg',
+      image: './n3.jpeg',
       date: '24 Julai 2025'
     },
     { 
